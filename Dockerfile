@@ -1,4 +1,4 @@
-FROM php:5-zts
+FROM php:5.6-zts
 
 RUN apt-get update \
 	&& apt-get upgrade -y \
